@@ -10,12 +10,59 @@
     position: relative;
 }
 /* HOMEPAGE IMG LAYERS */
-.hp-img-layers{
-    width: 100%;
-    height: fit-content;
-    position: relative;
-}
 .hp-img{
     width: 100%;
     position: absolute;
+}
+/* HOMEPAGE CONTENT */
+nav{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    margin: 10px 10px;
+    display: flex;
+}
+.nav-logo{
+    width: 5%;
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.nav-links li{
+    margin-left: 128px;
+    font-size: 64px;
+    letter-spacing: 5px;
+}
+.strm-btn{
+    background-color: #B40000;
+    border: none;
+    font-size: 48px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 110%;
+    padding: 40px 80px;
+    cursor: pointer;
+}
+.strm-btn img{
+    height: 100px;
+    padding-right: 40px;
+}
+.btn-container{
+    position: absolute;
+    margin-left: 10%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
 }
