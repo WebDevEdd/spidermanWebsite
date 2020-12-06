@@ -4,39 +4,18 @@
     box-sizing: border-box;
 }
 
-.main-bg-for-overflow{
-    background-image: url("/images/spidermanWebsite/nyCity.png");
-    height: fit-content;
+/* ########## HOMEPAGE ########## */
+.homePage{
     width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    z-index: -2;
+    position: relative;
 }
-.main-container{
+/* HOMEPAGE IMG LAYERS */
+.hp-img-layers{
     width: 100%;
     height: fit-content;
+    position: relative;
 }
-.fixed-bg{
-    height: 1080px;
+.hp-img{
     width: 100%;
     position: absolute;
-}
-.main-template{
-    width: 100%;
-}
-.main-layout{
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: center;
-}
-
-@media screen and (max-width: 1920){
-    .main-container{
-        max-width: 1920px;
-    }
 }
