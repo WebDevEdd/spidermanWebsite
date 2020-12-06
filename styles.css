@@ -5,9 +5,22 @@
 }
 
 /* ########## HOMEPAGE ########## */
+.bg-red{
+    width: 100%;
+}
+.empty-div{
+    position: relative;
+    width: 100%;
+}
+.empty-holder img{
+    height: 100%;
+    width: 100%;
+}
 .homePage{
     width: 100%;
     position: relative;
+    height: fit-content;
+    background-color: #B40000;
 }
 /* HOMEPAGE IMG LAYERS */
 .hp-img{
@@ -38,26 +51,26 @@ nav{
     font-family: 'Bebas Neue', cursive;
 }
 .nav-links li{
-    margin-left: 128px;
-    font-size: 64px;
+    margin-left: 64px;
+    font-size: 16px;
     letter-spacing: 5px;
 }
 .strm-btn{
     background-color: #B40000;
     border: none;
-    font-size: 48px;
+    font-size: 16px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     margin-top: 110%;
-    padding: 40px 80px;
+    padding: 10px 20px;
     cursor: pointer;
 }
 .strm-btn img{
-    height: 100px;
-    padding-right: 40px;
+    height: 32px;
+    padding-right: 10px;
 }
 .btn-container{
     position: absolute;
@@ -65,4 +78,44 @@ nav{
     width: 33%;
     display: flex;
     justify-content: center;
+}
+
+
+
+
+
+
+/* ######### PETER PARKER ##########*/
+.peterParker{
+    position: relative;
+    background-color: black;
+}
+.pp-img{
+    width: 100%;
+    position: absolute;
+}
+
+.pp-title{
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 48px;
+    width: 300px;
+}
+.pp-desc{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    color: white;
+    font-weight: 32px;
+    margin-top: 10%;
+}
+.pp-desc-container{
+    width: fit-content;
+    position: absolute;
+    right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
 }
