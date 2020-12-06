@@ -26,7 +26,7 @@ parallaxScrollY(ppDesc, ppDescSpeed);
 
 function smoothScroll(target){
     var target = document.querySelector(target);
-    var targetPosition = target.offsetY;
+    var targetPosition = target.offsetTop;
     window.scrollTo(0, targetPosition);
 }
 
