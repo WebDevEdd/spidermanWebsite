@@ -36,6 +36,10 @@ body{
     width: 100%;
     position: absolute;
 }
+#spidey{
+    position: absolute;
+    width: 100%;
+}
 /* HOMEPAGE CONTENT */
 nav{
     position: absolute;
@@ -64,7 +68,7 @@ nav{
     font-size: 16px;
     letter-spacing: 5px;
 }
-.strm-btn{
+.strm-btn {
     background-color: #B40000;
     border: none;
     font-size: 16px;
@@ -76,7 +80,16 @@ nav{
     margin-top: 110%;
     padding: 10px 20px;
     cursor: pointer;
+    transition: 0.4s ease;
 }
+.strm-btn a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .strm-btn img{
     height: 32px;
     padding-right: 10px;
@@ -89,6 +102,13 @@ nav{
     justify-content: center;
     
 }
+.strm-btn:hover{
+    transform: scale(1.1);
+}
+.nav-links li a:hover{
+    color: #ecc100;
+}
+
 
 
 

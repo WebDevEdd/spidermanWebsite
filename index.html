@@ -11,6 +11,7 @@
     <title>Spider-man: Homecoming</title>
 </head>
 <body>
+    
     <div class="full-container">
     <!-- ######## HOMEPAGE ######## -->
     <div class="homePage">
@@ -18,12 +19,14 @@
             <img src="/images/spidermanWebsite/homePage/background.png" class="hp-img hp-bg">
             <img src="/images/spidermanWebsite/homePage/brushFX2.png" class="hp-img hp-brush2">
             <img src="/images/spidermanWebsite/homePage/spidey1.png" class="hp-img hp-spidey1">
-            <img src="/images/spidermanWebsite/homePage/spidey2.png" class="hp-img hp-spidey2">
-            <img src="/images/spidermanWebsite/homePage/Title.png" class="hp-img hp-title">
+            <img src="/images/spidermanWebsite/homePage/spidey2.png" class="hp-spidey2" data-speed="0.5" id="spidey">
+            
+            <img src="/images/spidermanWebsite/homePage/Title.png" class="hp-img hp-title" id="hpTitle" data-speed="-0.3">
+            
             <img src="/images/spidermanWebsite/homePage/brsuhFX1.png" class="hp-img hp-brush1">          
             <!-- BUTTON HP -->
             <div class="btn-container">
-                <button class="strm-btn"><img src="/images/spidermanWebsite/playButton.png" alt="">STREAM NOW</button>
+                <button class="strm-btn" ><a href="https://www.vudu.com/content/movies/details/Spider-Man-Homecoming/851335"><img src="/images/spidermanWebsite/playButton.png" alt="">STREAM NOW</a></button>
             </div>
             <!-- NAVBAR -->
             <nav>
@@ -48,10 +51,10 @@
          <img src="/images/spidermanWebsite/peterParkerSec/pp-gradient.png" alt="" class="pp-img">
          <!-- TItle -->
          <div class="pp-desc-container">
-            <h1 class="pp-title">
+            <h1 class="pp-title" data-speed="-0.1">
                 JUST AN ORDINARY KID
             </h1>
-            <p class="pp-desc">
+            <p class="pp-desc" data-speed="-0.1">
                Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.
             </p>
          </div>
@@ -98,6 +101,6 @@
     
 
 
-<script src="app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
